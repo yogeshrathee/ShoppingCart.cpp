@@ -1,3 +1,9 @@
+//name-yogesh
+//university-lovely professional unversity
+//reg no- 12101629
+// STREAM-MCA
+
+
 #include<iostream>
 using namespace std;
 
