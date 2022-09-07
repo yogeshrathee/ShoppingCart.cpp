@@ -24,7 +24,7 @@ int main()
 	cin>>gst1;
 	
 	totalexp1=quantity1*price1;
-	gstcounta=(totalexp1*gst1)/100;
+	gstcounta=(((totalexp1*gst1)/100)-(totalexp1*5)/100);
 	gstcountb=price1+gstcounta;
 	
 	cout<<"\ntotal amount of product (Leather wallet):: "<<gstcountb<<endl;
@@ -40,7 +40,7 @@ int main()
 	cin>>gst2;
 	
 	totalexp2=quantity2*price2;
-	gstcountc=(totalexp2*gst2)/100;
+	gstcountc=(((totalexp2*gst2)/100)-(totalexp2*5)/100);
 	gstcountd=price2+gstcountc;
 	
 	cout<<"\ntotal amount of product (Umbrella):: "<<gstcountd<<endl;
@@ -75,6 +75,8 @@ int main()
 	gstcounth=price4+gstcountg;
 	
 	cout<<"\ntotal amount of product (Honey):: "<<gstcounth<<endl;
+	
+	
 	
 	total=gstcountb+gstcountd+gstcountf+gstcounth;
 	
